@@ -6,5 +6,5 @@ app.get("/", (req, res) => {
   });
 });
 app.listen(5555, () => {
-  console.log("app ruuning on 5555");
+  console.log(`app running on ${5555}`);
 });
